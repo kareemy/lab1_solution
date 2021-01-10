@@ -1,4 +1,4 @@
-## Your Name: 
+## Your Name: Kareem Dana Lab 1 - Solution
 
 
 # CIDM 3312 Lab 1: Review of Lists and Methods
@@ -75,11 +75,11 @@ Answer the following TWO questions by typing your answers right here in `README.
 
 1. What is the purpose of the `using` directive?
 
-    Replace this text with your response.
+    **The `using` directive brings in libraries or packages of other code that you can use in your app**
 
 2. What is the difference between a `for` loop and a `foreach` loop?
 
-    Replace this text with your response.
+    **Both iterate over collections (arrays, lists). The foreach loop is a simpler, cleaner syntax but is read only. You cannot modify the list while you are looping through it. The for loop uses the array square bracket syntax and is more powerful in that you can modify a list as you are looping**
 
 ## Task 8
 1. Save your program and run it. At the terminal prompt, type `dotnet run`.
