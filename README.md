@@ -1,9 +1,9 @@
 ## Your Name: Kareem Dana Lab 1 - Solution
 
 
-# CIDM 3312 Lab 1: Review of Lists and Methods
+# CIDM 3312 Lab 1: Review of Lists
 
-The goal of this lab exercise is to review your knowledge of lists and methods in C#. You will also practice using git and GitHub. Don't hesitate to ask questions. Read the instructions in this file, `README.md`, below. You can view them in VS Code by pressing Ctrl+Shift+V or Cmd+Shift+V.
+The goal of this lab exercise is to review your knowledge of lists in C#. You will also practice using git and GitHub. Don't hesitate to ask questions. Read the instructions in this file, `README.md`, below. You can view them in VS Code by pressing Ctrl+Shift+V or Cmd+Shift+V.
 
 Need Help? Don't hesitate to reach out -
 
@@ -16,7 +16,7 @@ Need Help? Don't hesitate to reach out -
 3. Clone your repository in VS Code.
 
 ## Task 1
-1. In the `Main` method, write C# code to create a new, empty list of strings.
+1. In `Program.cs`, write C# code to create a new, empty list of strings. Review https://aka.ms/new-console-template to better understand the top-level statement coding style new in .NET 6.0.
 
 ## Task 2
 1. Add 3 strings to your list using the List `.Add()` method.
@@ -45,39 +45,19 @@ Need Help? Don't hesitate to reach out -
     ```
 5. Visit the URL of your GitHub repository in a web browser and verify that your changes are on GitHub.    
 
-## Task 5 **Challenge Task**
-1. Create a method called `RemoveFromList()`. Remember to create this method inside `Class Program` but outside of the `Main` method.
-2. This method should check if your list contains a specific string. If it does, remove it from your list and return true. Otherwise return false.
-3. Here are some details:
-    - The first parameter for the method should be a List of strings: `List<string> myList`.
-    - The second parameter should be the specific string you are checking: `string stringToRemove`.
-    - It should return a `bool` which is `true` or `false`.
-    - Next write the code inside the method. Make sure to use the `.Contains()` and `.Remove()` List methods.
-4. In your `Main` method, you need to call `RemoveFromList()`, check its return value, and print an appropriate message:
-    ```
-    bool result = RemoveFromList(myList, "red");
-    if (result == true)
-    {
-        Console.WriteLine("red was in the list and removed!");
-    }
-    else
-    {
-        Console.WriteLine("red was not in the list, RemoveFromList returned false.");
-    }
-    ```
+## Task 5 
+1. Write code that checks if your list contains a specific string. If it does, remove it from your list.
+2. Display a message to the console stating that the specific string was removed from the list or it was not removed from the list.
+3. Test this code with a string that exists in your list and a string that does not exist in your list.
 
 ## Task 6
 1. Clear the list using the List `.Clear()` method.
 2. Verify that it is empty by printing the `Count` property of the list out to the console.
 
 ## Task 7
-Answer the following TWO questions by typing your answers right here in `README.md`.
+Answer the following question by typing your answers right here in `README.md`.
 
-1. What is the purpose of the `using` directive?
-
-    **The `using` directive brings in libraries or packages of other code that you can use in your app**
-
-2. What is the difference between a `for` loop and a `foreach` loop?
+1. What is the difference between a `for` loop and a `foreach` loop?
 
     **Both iterate over collections (arrays, lists). The foreach loop is a simpler, cleaner syntax but is read only. You cannot modify the list while you are looping through it. The for loop uses the array square bracket syntax and is more powerful in that you can modify a list as you are looping**
 
